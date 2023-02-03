@@ -21,9 +21,8 @@ nav {
 }
 
 main {
-  height: 80vh;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 28vw);
+  grid-template-columns: repeat(auto-fit, 250px);
   justify-content: center;
   align-items: start;
   column-gap: 44px;
@@ -36,17 +35,19 @@ article {
   display: grid;
   align-items: start;
   grid-template-rows: 1fr 0.1fr 0.8fr;
+  text-align: center;
 }
 
 img {
   justify-self: center;
-  width: 20vw;
+  min-width: 100px;
   height: 130px;
   object-fit: cover;
   border-radius: 10%;
 }
 
 footer {
+  align-self: end;
   display: grid;
   grid-auto-flow: column;
   height: 5vh;

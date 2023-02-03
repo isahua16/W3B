@@ -25,7 +25,7 @@ main {
   grid-template-columns: repeat(auto-fit, 250px);
   justify-content: center;
   align-items: start;
-  column-gap: 44px;
+  gap: 44px;
 }
 
 article {

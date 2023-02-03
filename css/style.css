@@ -1,10 +1,11 @@
 body {
   display: grid;
   gap: 24px;
+  background: linear-gradient(to right, #f6f8f8, #9bd2dca0);
 }
 
 header {
-  height: 5vh;
+  height: 50px;
   display: grid;
   grid-auto-flow: column;
   align-items: center;
@@ -50,5 +51,5 @@ footer {
   align-self: end;
   display: grid;
   grid-auto-flow: column;
-  height: 5vh;
+  height: 50px;
 }

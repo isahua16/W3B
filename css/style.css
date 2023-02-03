@@ -1,7 +1,19 @@
 body {
+  color: #282828;
+  font-family: sans-serif;
   display: grid;
   gap: 24px;
   background: linear-gradient(to right, #f6f8f8, #9bd2dca0);
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(86, 86, 86);
 }
 
 header {

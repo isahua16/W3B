@@ -1,0 +1,53 @@
+body {
+  display: grid;
+  gap: 24px;
+}
+
+header {
+  height: 5vh;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+}
+
+.header_logo {
+  width: 50px;
+  justify-self: start;
+}
+
+nav {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+main {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: center;
+  align-items: start;
+  column-gap: 44px;
+}
+
+article {
+  padding: 24px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10%;
+  display: grid;
+  align-items: start;
+  grid-template-rows: 1fr 0.1fr 0.8fr;
+}
+
+img {
+  justify-self: center;
+  width: 200px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+footer {
+  display: grid;
+  grid-auto-flow: column;
+  height: 5vh;
+}
